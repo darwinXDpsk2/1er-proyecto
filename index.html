@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Darwin Dylan Beltrán · Sistema Solar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="sky" aria-label="Sistema solar interactivo"></canvas>
+
+<div class="intro">
+  <h1>Darwin Dylan Beltrán</h1>
+  <p>Estudiante de Sistemas Informáticos. Mi órbita apunta a la ciberseguridad.</p>
+  <small>Cada planeta es una parte de mí. Toca uno para viajar hasta allá.</small>
+</div>
+
+<nav class="dock" aria-label="Secciones">
+  <button data-go="sobre"><i style="--c:#d8d2c8"></i>Sobre mí</button>
+  <button data-go="formacion"><i style="--c:#ffd9a0"></i>Formación</button>
+  <button data-go="skills"><i style="--c:#7fd0ff"></i>Habilidades</button>
+  <button data-go="intereses"><i style="--c:#ff9d6b"></i>Intereses</button>
+  <button data-go="proyectos" class="star"><i style="--c:#f1b46b"></i>Mis proyectos</button>
+  <button data-go="contacto"><i style="--c:#f4e3b0"></i>Contacto</button>
+</nav>
+
+<aside id="panel" aria-live="polite">
+  <button class="close" aria-label="Volver al sistema solar">✕</button>
+
+  <section data-id="sobre">
+    <h2>Sobre mí</h2>
+    <p>Tengo 17 años y estudio en la Unidad Educativa Técnico Humanístico Santiago Primero. Me interesa el desarrollo tecnológico, la programación, resolver problemas y proteger sistemas.</p>
+    <p>Soy curioso y autodidacta: si algo no lo entiendo, lo desarmo hasta entenderlo. Siempre estoy aprendiendo algo nuevo.</p>
+  </section>
+
+  <section data-id="formacion">
+    <h2>Formación</h2>
+    <div class="box"><b>Unidad Educativa Técnico Humanístico Santiago Primero</b><span>Nivel secundario · Área técnica en Sistemas Informáticos · En curso</span></div>
+    <h3>Objetivo</h3>
+    <p>Seguir formándome en Sistemas Informáticos y especializarme poco a poco en Ciberseguridad, para crear soluciones tecnológicas y ayudar a la seguridad y mejora de los sistemas.</p>
+  </section>
+
+  <section data-id="skills">
+    <h2>Habilidades</h2>
+    <h3>Lo que estoy aprendiendo</h3>
+    <div class="chips"><span>Fundamentos de informática</span><span>Programación y lógica</span><span>Tecnologías web</span><span>Redes y seguridad</span><span>Herramientas digitales</span></div>
+    <h3>Cómo trabajo</h3>
+    <div class="chips"><span>Pensamiento analítico</span><span>Autodidacta</span><span>Resolución de problemas</span><span>Adaptabilidad</span><span>Responsabilidad</span><span>Iniciativa</span><span>Perseverancia</span></div>
+  </section>
+
+  <section data-id="intereses">
+    <h2>Intereses</h2>
+    <ul class="list">
+      <li>Sistemas informáticos y soporte técnico</li>
+      <li>Programación y desarrollo de software</li>
+      <li>Desarrollo web</li>
+      <li>Redes y conectividad</li>
+      <li>Ciberseguridad</li>
+      <li>Inteligencia artificial</li>
+    </ul>
+  </section>
+
+  <section data-id="proyectos">
+    <h2>Mis proyectos</h2>
+    <div class="mission">
+      <div class="glow"></div>
+      <h3>Nombre de tu proyecto</h3>
+      <p>Proyecto que ayuda a facilitar la organizacion de materias. cursos entre otros donde mejora el rendimiento de los que lo usan.</p>
+      <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <!-- 👇👇 AQUÍ PEGA EL ENLACE DE TU OTRA PÁGINA: reemplaza el "#" de href por tu URL 👇👇 -->
+      <a class="launch" href="http://localhost/registro_escolar_compatible/" target="_blank" rel="noopener">Lanzar proyecto 🚀</a>
+    </div>
+    <p class="hint">Pronto habrá más misiones en esta órbita.</p>
+  </section>
+
+  <section data-id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres colaborar o simplemente hablar de tecnología? Escríbeme.</p>
+    <div class="links">
+      <!-- 👇 Cambia por tu correo real -->
+      <a href="mailto:tucorreo@ejemplo.com">Correo</a>
+      <!-- 👇 Cambia por tu GitHub real -->
+      <a href="https://github.com/tuusuario" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
